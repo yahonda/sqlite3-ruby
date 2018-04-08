@@ -17,6 +17,8 @@ rvm:
   - 2.3.0
   - 2.4.1
   - ruby-head
+before_install: gem install bundler
+
 matrix:
   allow_failures:
     - env: USE_MINI_PORTILE=false
