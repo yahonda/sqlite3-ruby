@@ -44,11 +44,11 @@ module SQLite3
 
     def type
       case @driver.value_type( @handle )
-        when Constants::ColumnType::INTEGER then :int
-        when Constants::ColumnType::FLOAT   then :float
-        when Constants::ColumnType::TEXT    then :text
-        when Constants::ColumnType::BLOB    then :blob
-        when Constants::ColumnType::NULL    then :null
+      when Constants::ColumnType::INTEGER then :int
+      when Constants::ColumnType::FLOAT   then :float
+      when Constants::ColumnType::TEXT    then :text
+      when Constants::ColumnType::BLOB    then :blob
+      when Constants::ColumnType::NULL    then :null
       end
     end
     
