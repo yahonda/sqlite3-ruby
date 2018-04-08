@@ -66,11 +66,9 @@ Layout/BlockEndNewline:
 # Configuration parameters: EnforcedStyle, IndentOneStep, IndentationWidth.
 # SupportedStyles: case, end
 Layout/CaseIndentation:
-  Exclude:
-    - 'faq/faq.rb'
+  Include:
     - 'lib/sqlite3/pragmas.rb'
     - 'lib/sqlite3/value.rb'
-    - 'tmp/x86_64-linux/stage/faq/faq.rb'
 
 # Offense count: 20
 # Cop supports --auto-correct.
