@@ -8,6 +8,7 @@ addons:
   apt:
     packages:
       - libgmp-dev
+      - libsqlite3-dev
 
 env:
   - USE_MINI_PORTILE=true
